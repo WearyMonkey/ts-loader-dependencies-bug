@@ -12,7 +12,8 @@ LOADING:  /Users/toby/append/entry1.ts [ '/Users/toby/append/entry1.ts',
   '/Users/toby/append/node_modules/typescript/lib/lib.d.ts' ]
 Hash: 9ba5ebc9763df0e0b710
 Version: webpack 2.2.1
-Time: 243ms```
+Time: 243ms
+```
 
 actual output:
 ```
