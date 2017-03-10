@@ -1,3 +1,7 @@
+ts-loader incorrectly includes the appended '.ts' suffix of files matching the appendTsSuffixTo option in the dependency path, e.g. `addDependency('styles.css.ts')`. 
+
+As webpack is unable to find these files on the filesystem it appears to mark the module as dirty when ANY file in the entry point's dependency tree changes. The end result is any change will cause all modules to be re-compiled.
+
 To test:
 ```
 npm run webpack-dev-server
